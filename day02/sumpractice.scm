@@ -1,4 +1,8 @@
+(lambda
+)
+
 (define sumup
+
     (lambda (x y)
         (+ x y)))
 
@@ -7,3 +11,5 @@
     2
     3
 )
+
+(define thing
