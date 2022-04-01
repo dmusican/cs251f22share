@@ -9,4 +9,4 @@
           ((equal? s (car lst)) (cdr lst))
           (else
            (cons (car lst)
-                 (remove-first s (cdr lst))))))))
+                 (remove-first s (cdr lst)))))))
