@@ -8,5 +8,5 @@
 (cond ([equal? x 3] 7)
       ([equal? x 12] 9)
       ([equal? x 1] #t)
-      ([equal? 1/0 3] 111)
+      ([equal? (/ 1 0) 3] 111)
       (else 'a))
