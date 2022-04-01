@@ -8,7 +8,7 @@
 
 (define list-of-numbers2?
   (lambda (lst)
-    (if (null? lst)
+    (if ((length lst) 1)
         #t
         (and
          (number? (car lst))
