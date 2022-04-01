@@ -5,7 +5,7 @@
         (+ 1 (list-length (cdr lst))))))
 
 (define x 1)
-(cond ((equal? x 3) 7)
+(cond ([equal? x 3] 7)
       ((equal? x 12) 9)
       ((equal? x 1) #t)
       (else 'a))
