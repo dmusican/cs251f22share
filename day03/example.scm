@@ -5,7 +5,7 @@
 
 (define remove-first
   (lambda (s lst)
-    (cond (((null? lst) '())
+    (cond ((null? lst) '())
            ((equal? s (car lst)) (cdr lst))
            (else
             (cons (car lst)
