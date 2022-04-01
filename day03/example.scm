@@ -14,7 +14,7 @@
 (define remove-all
   (lambda (s lst)
     (cond ((null? lst) '())
-          ((equal? s (car lst)) (cdr lst))
+          ((equal? s (car lst)) (remove-all s (cdr lst)))
           (else
            (cons (car lst)
                  (remove-all s (cdr lst)))))))
