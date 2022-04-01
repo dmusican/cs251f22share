@@ -8,8 +8,8 @@
 
 (define list-of-numbers2?
   (lambda (lst)
-    (if ((length lst) 1)
-        #t
+    (if (null? (cdr lst))
+        (number? (car lst))
         (and
          (number? (car lst))
          (list-of-numbers2? (cdr lst))))))
