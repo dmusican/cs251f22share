@@ -19,4 +19,4 @@
         (list ())     ;; (())
         (append (subsets (cdr lst))
                 (cons-each (car lst)
-                           (subsets (cdr lst)))
+                           (subsets (cdr lst)))))))
