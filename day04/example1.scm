@@ -3,4 +3,9 @@
 
 (define subst
   (lambda (old new input)
-    (cond 
+    (cond ((null? input) '())
+          ((list? input)    ________)
+          ((equal? input old)   _______)
+          (else _______________))))
+
+                            
