@@ -12,3 +12,11 @@
         (cons
          (cons s (car lst))  ;; 1 onto ()
          (cons-each s (cdr lst))))))
+
+(define subsets
+  (lambda (lst)
+    (if (null? lst)
+        ......
+        (append (subsets (cdr lst))
+                (cons-each (car lst)
+                           (subsets (cdr lst)))
