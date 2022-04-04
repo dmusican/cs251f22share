@@ -4,8 +4,11 @@
 (define subst
   (lambda (old new input)
     (cond ((null? input) '())
-          ((list? input)    ________)
-          ((equal? input old)   _______)
-          (else _______________))))
+          ((list? input)
+           (cons
+            (subst old new (car input))
+            (subst old new (cdr input))))
+          ((equal? input old) new) ;; atom is "old"
+          (else input)))) ;; atom that's not "old"
 
                             
