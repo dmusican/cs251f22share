@@ -11,4 +11,5 @@
           ((equal? input old) new) ;; atom is "old"
           (else input)))) ;; atom that's not "old"
 
-                            
+
+(subst 'b 'a '((b c) (b () d))
