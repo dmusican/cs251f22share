@@ -1,1 +1,1 @@
-;; (subst 
+;; (subst 'b 'a '((b c) (b () d))
