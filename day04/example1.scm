@@ -12,4 +12,4 @@
           (else input)))) ;; atom that's not "old"
 
 
-(subst 'b 'a '((b c) (b () d))
+(subst 'b 'a '((b c) (b () d)))
