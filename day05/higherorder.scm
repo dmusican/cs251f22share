@@ -11,3 +11,5 @@
 ;; where the first parameter is applied
 ;; to every item in that list
 (map addOne '(1 2 9 3 4))
+
+(fold-left + 0 '(1 2 3))
