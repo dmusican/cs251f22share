@@ -23,3 +23,4 @@
 ;; ... the second item in the list, etc
 (fold-left + 0 '(1 2 3))
 (fold-left + 5 '(1 2 3))
+(fold-left cons 5 '(1 2 3))
