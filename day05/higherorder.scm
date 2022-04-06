@@ -12,4 +12,5 @@
 ;; to every item in that list
 (map addOne '(1 2 9 3 4))
 
+(use-modules (rnrs))
 (fold-left + 0 '(1 2 3))
