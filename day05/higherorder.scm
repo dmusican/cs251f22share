@@ -25,3 +25,5 @@
 (fold-left + 5 '(1 2 3))
 (fold-left cons 5 '(1 2 3))
 (fold-left cons '() '(1 2 3))
+
+(fold-right cons '() '(1 2 3))
