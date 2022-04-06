@@ -45,8 +45,12 @@
         (cons (f (car lst))
               (my-map f (cdr lst))))))
 
-;; (define my-fold-left
-;;   ....)
+(define my-fold-left
+  (lambda (f init lst)
+    (if (null? lst) init
+        (my-fold-left f
+                      (f init (car lst))
+                      (cdr lst)))))
 
 ;; (define my-fold-right
 ;;   ....)
