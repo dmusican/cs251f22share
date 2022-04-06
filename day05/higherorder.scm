@@ -13,4 +13,12 @@
 (map addOne '(1 2 9 3 4))
 
 (use-modules (rnrs))
+;; 3 parameters
+;; First is a function of TWO parameters
+;; Second is an inital value
+;; Third is a list
+;; Uses the function on the initial value
+;;  ... and the first value in the list
+;; and then repeats with that answer and
+;; ... the second item in the list, etc
 (fold-left + 0 '(1 2 3))
