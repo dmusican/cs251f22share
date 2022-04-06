@@ -40,10 +40,13 @@
 
 
 (define my-map
-  ....)
+  (lambda (f lst)
+    (if (null? lst) '()
+        (cons (f (car lst))
+              (my-map f (cdr lst))))))
 
-(define my-fold-left
-  ....)
+;; (define my-fold-left
+;;   ....)
 
-(define my-fold-right
-  ....)
+;; (define my-fold-right
+;;   ....)
