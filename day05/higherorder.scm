@@ -35,3 +35,15 @@
 (fold-right + 0 '(1 2 3))
 (fold-left - 0 '(1 2 3))
 (fold-right - 0 '(1 2 3))
+
+
+
+
+(define my-map
+  ....)
+
+(define my-fold-left
+  ....)
+
+(define my-fold-right
+  ....)
