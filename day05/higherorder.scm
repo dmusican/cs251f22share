@@ -27,7 +27,8 @@
 (fold-left cons '() '(1 2 3))
 
 ;; same parameters as fold-left
-;; applies the function to the initial value
+;; applies the function to the
+;;  ... first value in the list
 ;; and the results of recursively calling
 ;; fold-right on the rest of the list
 (fold-right cons '() '(1 2 3))
