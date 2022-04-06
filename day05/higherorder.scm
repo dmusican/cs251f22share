@@ -52,5 +52,8 @@
                       (f init (car lst))
                       (cdr lst)))))
 
-;; (define my-fold-right
-;;   ....)
+(define my-fold-right
+  (lambda (f init lst)
+    (if (null? lst) init
+        (f (car lst)
+           (my-fold-right f init (cdr lst))))))
