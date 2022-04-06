@@ -33,3 +33,4 @@
 ;; fold-right on the rest of the list
 (fold-right cons '() '(1 2 3))
 (fold-right + 0 '(1 2 3))
+(fold-right - 0 '(1 2 3))
