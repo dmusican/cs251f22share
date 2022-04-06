@@ -21,4 +21,4 @@
 ;;  ... and the first value in the list
 ;; and then repeats with that answer and
 ;; ... the second item in the list, etc
-(fold-left + 0 '(1 2 3))
+(fold-left + 5 '(1 2 3))
