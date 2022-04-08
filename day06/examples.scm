@@ -9,6 +9,6 @@
 
 (define fact
   (lambda (n)
-    (if (equals? n 1)
+    (if (equal? n 1)
         1
-        (fact (* n (- n 1))))))
+        (* n (fact (- n 1))))))
