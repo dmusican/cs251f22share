@@ -13,4 +13,8 @@
 ;;         1
 ;;         (* n (fact (- n 1))))))
 
-(
+(define fact
+  (lambda (n partial)
+    (if (equal? n 1)
+        partial
+        (fact (- n 1) (* n partial)))))
