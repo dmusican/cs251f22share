@@ -4,4 +4,5 @@
 
 (define f
   (lambda (a b)
-    (id (+ a b))))
+    (id
+     (+ a b))))
