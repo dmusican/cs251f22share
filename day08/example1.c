@@ -8,4 +8,5 @@ int main() {
     *x = 6;
     printf("%i\n", *x);
     printf("%i\n", a);
+    printf("%i\n", x);
 }
