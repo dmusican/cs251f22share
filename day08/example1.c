@@ -9,4 +9,7 @@ int main() {
     printf("%i\n", *x);
     printf("%i\n", a);
     printf("%p\n", x);
+    int y;
+    y = a;
+    printf("%i\n, y);
 }
