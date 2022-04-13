@@ -12,4 +12,7 @@ int main() {
     int y;
     y = a;
     printf("%i\n", y);
+    x = 9;
+    printf("%i\n", x);
+    printf("%i\n", y);
 }
