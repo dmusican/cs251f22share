@@ -11,5 +11,5 @@ int main() {
     printf("%p\n", x);
     int y;
     y = a;
-    printf("%i\n, y);
+    printf("%i\n", y);
 }
