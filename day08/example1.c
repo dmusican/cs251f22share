@@ -4,3 +4,8 @@
 int main() {
     int a = 12;
     int *x;
+    x = &a;
+    *x = 6;
+    printf("%i\n", *x);
+    printf("%i\n", a);
+}
