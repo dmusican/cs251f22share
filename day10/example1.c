@@ -8,6 +8,7 @@ int main() {
         /* printf("%i\n", numbers[i]); */
     }
     printf("%i\n", *numbers);
+    printf("%i\n", *(numbers+1);
 
     /* int *more = malloc(3*sizeof(int)); */
     /* for (int i=0; i < 3; i++) { */
