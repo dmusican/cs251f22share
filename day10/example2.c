@@ -8,4 +8,5 @@ int main() {
     int loc = 1+5;
     numbers[loc] = 10;
     printf("%i\n", numbers[loc]);
+    printf("%i\n", other[loc]);
 }
