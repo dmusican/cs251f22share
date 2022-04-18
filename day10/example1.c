@@ -7,10 +7,11 @@ int main() {
         numbers[i] = i;
         printf("%i\n", numbers[i]);
     }
+    print("%i\n", *numbers);
 
-    int *more = malloc(3*sizeof(int));
-    for (int i=0; i < 3; i++) {
-        more[i] = i;
-        printf("%i\n", more[i]);
-    }
+    /* int *more = malloc(3*sizeof(int)); */
+    /* for (int i=0; i < 3; i++) { */
+    /*     more[i] = i; */
+    /*     printf("%i\n", more[i]); */
+    /* } */
 }
