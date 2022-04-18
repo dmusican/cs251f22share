@@ -2,7 +2,10 @@
 #include <stdlib.h>
 
 int main() {
+    int location;
+    printf("What location?");
+    scanf("%i", &location);
     int numbers[3];
-    numbers[1+5] = 10;
+    numbers[location] = 10;
     printf("%i\n", numbers[6]);
 }
