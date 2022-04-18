@@ -4,7 +4,7 @@
 int main() {
     int numbers[3];
     for (int i=0; i < 3; i++) {
-        numbers[i] = i;
+        numbers[i] = i*10;
         /* printf("%i\n", numbers[i]); */
     }
     printf("%i\n", *numbers);
