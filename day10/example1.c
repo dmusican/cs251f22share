@@ -7,4 +7,6 @@ int main() {
         numbers[i] = i;
         printf("%i\n", numbers[i]);
     }
+    int more[3];
+    more = numbers;
 }
