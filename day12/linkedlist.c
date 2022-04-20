@@ -9,6 +9,18 @@ LinkedList *insertFrontLL(LinkedList *locallist, int j) {
     return cell;
 }
 
+void displayLL(LinkedList *list) {
+
+    void displayLL(LinkedList *list) {
+
+        void displayLL(LinkedList *list) {
+
+            void displayLL(LinkedList *list) {
+            }
+        }
+    }
+}
+
 int main() {
     LinkedList *list = NULL;
     for (int i=10; i < 15; i++) {
