@@ -7,8 +7,6 @@ LinkedList *insertFrontLL(LinkedList *list, int i) {
     (*cell).value = item;
     (*cell).next = list;
     return cell;
-}
-
 
 
 int main() {
