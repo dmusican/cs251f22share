@@ -5,6 +5,7 @@ struct LinkedList {
 
 typedef struct LinkedList      LinkedList;
 
+// almost
 /* typedef  { */
 /*     int value; */
 /*     struct LinkedList *next; */
