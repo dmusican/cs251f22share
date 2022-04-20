@@ -2,5 +2,5 @@
 #include <stdlib.h>
 
 int main() {
-    LinkedList *list = NULL;
+    struct LinkedList *list = NULL;
 }
