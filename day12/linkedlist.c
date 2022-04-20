@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include "linkedlist.h"
 
-LinkedList *insertFrontLL(LinkedList *list, int i) {
+LinkedList *insertFrontLL(LinkedList *locallist, int i) {
     LinkedList *cell = malloc(sizeof(LinkedList));
     (*cell).value = item;
-    (*cell).next = list;
+    (*cell).next = locallist;
     return cell;
 
 
