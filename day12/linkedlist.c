@@ -10,14 +10,10 @@ LinkedList *insertFrontLL(LinkedList *locallist, int j) {
 }
 
 void displayLL(LinkedList *list) {
-
-    void displayLL(LinkedList *list) {
-
-        void displayLL(LinkedList *list) {
-
-            void displayLL(LinkedList *list) {
-            }
-        }
+    LinkedList *cur = list;
+    while (cur != NULL) {
+        printf("value = %i\n", cur->value);
+        cur = cur->next;
     }
 }
 
