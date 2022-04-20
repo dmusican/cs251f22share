@@ -3,6 +3,6 @@
 #include "linkedlist.h"
 
 int main() {
-    struct LinkedList *list = NULL;
+    LinkedList *list = NULL;
     printf("%i\n", (*list).value);
 }
