@@ -4,3 +4,8 @@ typedef struct LinkedList {
 } LinkedList;
 
 /* typedef struct LinkedList      LinkedList; */
+
+typedef  {
+    int value;
+    struct LinkedList *next;
+} LinkedList;
