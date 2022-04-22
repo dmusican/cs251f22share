@@ -24,3 +24,4 @@ void cleanupLL(LinkedList *list) {
         free(cur);
         cur = follow;
     }
+}
