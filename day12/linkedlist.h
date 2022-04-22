@@ -9,7 +9,9 @@ typedef struct LinkedList      LinkedList;
 LinkedList *insertFrontLL(LinkedList *locallist, int j);
 void displayLL(LinkedList *list);
 
-
+int doit() {
+    return 1;
+}
 
 // almost
 /* typedef  { */
