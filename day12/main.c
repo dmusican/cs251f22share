@@ -8,4 +8,5 @@ int main() {
     }
     displayLL(list);
     cleanupLL(list);
+    cleanupLL(list);
 }
