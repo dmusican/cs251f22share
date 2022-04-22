@@ -6,7 +6,7 @@ struct LinkedList {
 typedef struct LinkedList      LinkedList;
 
 
-
+LinkedList *insertFrontLL(LinkedList *locallist, int j);
 
 
 
