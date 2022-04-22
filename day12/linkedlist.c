@@ -17,3 +17,10 @@ void displayLL(LinkedList *list) {
     }
 }
 
+void cleanupLL(LinkedList *list) {
+    LinkedList *cur = list;
+    while (cur != NULL) {
+        LinkedList *follow = cur->next;
+        free(cur);
+        cur = follow;
+    }
