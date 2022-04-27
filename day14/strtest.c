@@ -8,3 +8,5 @@ int main() {
     word[2] = 'v';
     word[3] = 'e';
     word[4] = '\0';  // null
+    print("%s\n", word);
+}
