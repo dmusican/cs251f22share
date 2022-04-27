@@ -2,7 +2,7 @@
 
 int main() {
     // the hard way
-    char word[20];
+    char word[10];
     word[0] = 'd';
     word[1] = 'a';
     word[2] = 'v';
