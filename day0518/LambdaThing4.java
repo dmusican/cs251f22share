@@ -3,7 +3,7 @@ import java.util.function.*;
 public class LambdaThing3 {
     public static void evaluate(BiFunction<Integer, Integer, Integer> ftobj,
                                 int x, int y) {
-        System.out.println(ftobj.f(x,y));
+        System.out.println(ftobj.apply(x,y));
     }
 
     public static void main(String[] args) {
