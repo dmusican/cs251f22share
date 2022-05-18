@@ -1,3 +1,7 @@
+interface FunThing {
+    public int f(int x, int y);
+}
+
 public class LambdaThing {
     public static void evaluate(  f, x, y) {
         System.out.println(f(x,y));
