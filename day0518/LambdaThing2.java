@@ -16,7 +16,7 @@ public class LambdaThing2 {
         //         }
         //     };
 
-        FunThing adthing = (x, y) -> x + y;
-        evaluate(adthing, 3, 5);
+        // FunThing adthing = (x, y) -> x + y;
+        evaluate((x, y) -> x + y, 3, 5);
     }
 }
