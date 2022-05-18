@@ -8,11 +8,11 @@ public class HelloWorld {
         tf.setBounds(50,50, 150,20);
         JButton b=new JButton("Click Here");
         b.setBounds(50,100,195,30);
-        b.addActionListener(new ActionListener(){
-                public void actionPerformed(ActionEvent e){
-                    tf.setText("Welcome");
-                }
-            });
+        // b.addActionListener(new ActionListener(){
+        //         public void actionPerformed(ActionEvent e){
+        //             tf.setText("Welcome");
+        //         }
+        //     });
         b.addActionListener(e -> tf.setText("Welcome"));
         f.add(b);f.add(tf);
         f.setSize(400,400);
