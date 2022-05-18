@@ -9,3 +9,5 @@ data.sort()
 print(data)
 
 newdata = [("Dave", 9), ("Rachel", 1), ("Evan", 6), ("Liz", 12)]
+newdata.sort()
+print(newdata)
