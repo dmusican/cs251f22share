@@ -9,5 +9,5 @@ data.sort()
 print(data)
 
 newdata = [("Dave", 9), ("Rachel", 1), ("Evan", 6), ("Liz", 12)]
-newdata.sort()
+newdata.sort(key=lambda t: t[1])
 print(newdata)
