@@ -9,7 +9,7 @@ class AdderThing implements FunThing {
 }
 
 
-public class LambdaThing {
+public class LambdaThing2 {
     public static void evaluate(FunThing ftobj,
                                 int x, int y) {
         System.out.println(ftobj.f(x,y));
