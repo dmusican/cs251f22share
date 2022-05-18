@@ -10,13 +10,13 @@ class AdderThing implements FunThing {
 
 
 public class LambdaThing {
-    public static void evaluate(  f, x, y) {
-        System.out.println(f(x,y));
+    public static void evaluate(FunThing ftobj, x, y) {
+        System.out.println(ftobj.f(x,y));
     }
 
     public static void main(String[] args) {
 
-        add = ???;
-        evaluate(add, 3, 5);
+        AdderThing adthing = new AdderThing();
+        evaluate(adthing, 3, 5);
     }
 }
