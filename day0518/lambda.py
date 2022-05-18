@@ -12,6 +12,6 @@ print(data)
 #     return t[1]
 
 newdata = [("Dave", 1), ("Rachel", 1), ("Evan", 6), ("Liz", 12)]
-newdata.sort(key=lambda t: (t[1], t[0]))
+newdata.sort(key=lambda t: (t[1], t[0][3]))
 #newdata.sort(key=getSecondValue)
 print(newdata)
