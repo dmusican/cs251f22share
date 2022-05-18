@@ -1,6 +1,4 @@
-interface FunThing {
-    public int f(int x, int y);
-}
+import java.util.function.*;
 
 public class LambdaThing3 {
     public static void evaluate(FunThing ftobj,
