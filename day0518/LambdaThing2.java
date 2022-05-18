@@ -10,12 +10,13 @@ public class LambdaThing2 {
 
     public static void main(String[] args) {
 
-        FunThing adthing = new FunThing() {
-                public int f(int x, int y) {
-                    return x + y;
-                }
-            };
+        // FunThing adthing = new FunThing() {
+        //         public int f(int x, int y) {
+        //             return x + y;
+        //         }
+        //     };
 
+        FunThing adthing = (x, y) -> x + y;
         evaluate(adthing, 3, 5);
     }
 }
