@@ -7,3 +7,5 @@ print(answer)
 data = [9, 3, 7, 0, 1]
 data.sort()
 print(data)
+
+newdata = [("Dave", 9), ("Rachel", 1), ("Evan", 6), ("Liz", 12)]
