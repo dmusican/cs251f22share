@@ -5,7 +5,12 @@
       x)))
 
 (define b
-  (lambda ()
-    (let ((x 0))
+  (let ((x 0))
+    (lambda ()
       (set! x (+ x 1))
       x)))
+
+(a)
+(a)
+(b)
+(b)
