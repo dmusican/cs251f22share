@@ -12,6 +12,12 @@ struct Thing {
     int (*fptr)(int,int);
 }
 
-int main() {
-    printf("%i\n", doit(add, 3, 5));
+    int main() {
+
+    Thing *t = malloc(sizeof(Thing));
+    t->fptr = add;
+
+    printf("%i\n", doit(t->fptr, 3, 5));
+
+    free(t);
 }
