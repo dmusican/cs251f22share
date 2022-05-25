@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int add(int x, int y) {
     return x + y;
@@ -12,7 +13,7 @@ struct Thing {
     int (*fptr)(int,int);
 };
 
-    int main() {
+int main() {
 
     Thing *t = malloc(sizeof(Thing));
     t->fptr = add;
