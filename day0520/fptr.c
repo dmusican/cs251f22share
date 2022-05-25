@@ -10,7 +10,7 @@ int doit(int (*f)(int,int), int x, int y) {
 
 struct Thing {
     int (*fptr)(int,int);
-}
+};
 
     int main() {
 
