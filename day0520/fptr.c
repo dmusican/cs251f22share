@@ -12,6 +12,7 @@ int doit(int (*f)(int,int), int x, int y) {
 struct Thing {
     int (*fptr)(int,int);
 };
+typedef struct Thing Thing;
 
 int main() {
 
